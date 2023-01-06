@@ -1,6 +1,4 @@
 FROM python:3
-RUN apk add --no-cache py3-pip \
-    && pip3 install --upgrade pip
 
 COPY . .
 
