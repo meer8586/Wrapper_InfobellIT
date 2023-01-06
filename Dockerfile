@@ -1,8 +1,8 @@
 FROM python:3
 
 COPY . .
-
-RUN pip3 --no-cache-dir install -r requirements.txt
+RUN apt install python3-pip
+RUN pip3 install -r requirement.txt
 
 EXPOSE 8080
 
